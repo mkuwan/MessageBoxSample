@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBoxSample", "MessageBoxSample\MessageBoxSample.csproj", "{184061F3-DE40-42C7-80FC-C03138197C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.MessageBox", "Module.MessageBox\Module.MessageBox.csproj", "{067F64E6-B2F4-470A-9EA5-9F6EB2A1FC91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{184061F3-DE40-42C7-80FC-C03138197C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184061F3-DE40-42C7-80FC-C03138197C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184061F3-DE40-42C7-80FC-C03138197C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184061F3-DE40-42C7-80FC-C03138197C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067F64E6-B2F4-470A-9EA5-9F6EB2A1FC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067F64E6-B2F4-470A-9EA5-9F6EB2A1FC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067F64E6-B2F4-470A-9EA5-9F6EB2A1FC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067F64E6-B2F4-470A-9EA5-9F6EB2A1FC91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16257FAD-ECAC-4F4D-ACD1-3102F4EC3064}
+	EndGlobalSection
+EndGlobal

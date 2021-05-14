@@ -8,4 +8,7 @@
   <ItemGroup>
     <PackageReference Include="Prism.DryIoc" Version="8.0.0.1909" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Module.MessageBox\Module.MessageBox.csproj" />
+  </ItemGroup>
 </Project>

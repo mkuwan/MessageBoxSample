@@ -5,6 +5,18 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525" >
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <StackPanel>
+            <Button Content="OK"
+                    Command="{Binding ShowOKMessageBox}"
+                    Margin="10"/>
+
+            <Button Content="はい・いいえ"
+                    Command="{Binding ShowYesNoMessageBox}"
+                    Margin="10"/>
+
+            <Button Content="OK・キャンセル"
+                    Command="{Binding ShowOKCancelMessageBox}"
+                    Margin="10"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -41,6 +41,7 @@ namespace Module.MessageBox.ViewModels
             NoCommand = new DelegateCommand(SelectedNo);
         }
 
+
         private void SelectedOk()
         {
             result = new DialogResult(ButtonResult.OK);
